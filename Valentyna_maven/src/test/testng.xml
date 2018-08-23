@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll" verbose="1">
+
+    <test name="Add">
+        <classes>
+            <class name="Add" />
+        </classes>
+    </test>
+
+    <test name="Sub">
+        <classes>
+            <class name="Sub" />
+        </classes>
+    </test>
+
+    <test name="Mul">
+        <classes>
+            <class name="Mul" />
+        </classes>
+    </test>
+
+    <test name="Dis">
+        <classes>
+            <class name="Dis" />
+        </classes>
+    </test>
+</suite>
