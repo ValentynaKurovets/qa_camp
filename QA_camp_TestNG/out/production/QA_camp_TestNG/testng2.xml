@@ -1,0 +1,48 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestFailure" verbose="1">
+
+    <test name="Add">
+        <groups>
+            <run>
+                  <include name="failure_group"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.company.Add" />
+        </classes>
+    </test>
+
+    <test name="Sub">
+        <groups>
+            <run>
+                <include name="failure_group"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.company.Sub" />
+        </classes>
+    </test>
+
+    <test name="Mul">
+        <groups>
+            <run>
+                <include name="failure_group"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.company.Mul" />
+        </classes>
+    </test>
+
+    <test name="Dis">
+        <groups>
+            <run>
+                <include name="failure_group"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.company.Dis" />
+        </classes>
+    </test>
+</suite>
