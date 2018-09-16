@@ -1,0 +1,1 @@
+{"uuid":"94cbd460-fa0a-471f-87e8-7240c2eda2ea","name":"IfTest.closeBrowser","description":"","start":1537112994851,"stop":1537112994851,"children":["4153a4eb-67ff-400f-98a1-40578c6ddf13"],"afters":[{"name":"closeBrowser","status":"passed","stage":"finished","description":"","start":1537112994851,"stop":1537112994851}]}
